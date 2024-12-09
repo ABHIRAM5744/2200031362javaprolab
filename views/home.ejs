@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spring MVC Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .links {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Spring MVC Demo</h1>
+    <div class="links">
+        <h2>Available Routes:</h2>
+        <ul>
+            <li><a href="/SpringMVC/greet?username=Alice">Greeting Page</a></li>
+            <li><a href="/SpringMVC/about">About Page</a></li>
+            <li><a href="/SpringMVC/demo1?age=30&country=USA">Demo 1 (Age and Country)</a></li>
+            <li><a href="/SpringMVC/demo2/400/200">Demo 2 (Arithmetic Operations)</a></li>
+            <li><a href="/SpringMVC/productform">Product Form</a></li>
+            <li><a href="/SpringMVC/multiplyNumbers?num1=6&num2=7">Multiply Numbers</a></li>
+            <li><a href="/SpringMVC/reverse?str1=Hello&str2=World">Reverse Strings</a></li>
+            <li><a href="/SpringMVC/calculate?num1=20&num2=15">Calculate</a></li>
+        </ul>
+    </div>
+</body>
+</html>
